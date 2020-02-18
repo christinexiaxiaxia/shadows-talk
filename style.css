@@ -1,0 +1,140 @@
+@font-face{
+  font-family: Akkurat-Mono;
+  src: url('akkurat-mono.ttf');
+}
+
+body, html {
+  background-color: black;
+  margin: 0px;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+.homenavi {
+  font-family: Akkurat-Mono;
+  font-size: 8pt;
+  letter-spacing: 6px;
+  text-align: left;
+
+  padding: 0px 10px 10px 10px;
+
+  position: fixed;
+  display: block;
+  top: 50px;
+  left: 50px;
+
+  cursor: default;
+  user-select: none;
+  z-index: 500;
+
+    animation-duration: 7s;
+    animation-name: fadein;
+}
+
+.homenav {
+  margin-top: 10px;
+}
+
+.homenavi-link {
+  color: rgba(233,255,0,0.6);
+  text-decoration: none;
+
+  transition-duration: 0.3s;
+}
+
+.homenavi-link:hover {
+  color: rgba(233,255,0,1);
+
+  transition-duration: 0.3s;
+}
+
+.navi {
+  font-family: Akkurat-Mono;
+  font-size: 8pt;
+  letter-spacing: 3px;
+  text-align: left;
+
+  padding: 0px 10px 10px 10px;
+
+  position: fixed;
+  display: block;
+  top: 130px;
+  left: 50px;
+
+  cursor: default;
+  user-select: none;
+  z-index: 500;
+
+    animation-duration: 7s;
+    animation-name: fadein;
+}
+
+.navlink {
+  margin-top: 10px;
+}
+
+.navi-link {
+  color: rgba(233,255,0,0.6);
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  text-decoration: none;
+
+  transition-duration: 0.3s;
+}
+
+.navi-link:hover {
+  color: rgba(233,255,0,1);
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+
+  transition-duration: 0.3s;
+}
+
+.image {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#baldwin-mccaul {
+  background-image: url(baldwin-mccaul.jpg);
+  background-size: cover;
+  background-position: 55% 90%;
+  left: 0%;
+  z-index: 0;
+}
+
+#elm-mccaul {
+  background-image: url(elm-mccaul.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: 0;
+}
+
+#baldwin-beverley {
+  background-image: url(baldwin-beverley.jpg);
+  background-size: cover;
+  background-position: 47% 20%;
+  z-index: 0;
+}
+
+.loc {
+  font-family: Akkurat-Mono;
+  font-size: 16pt;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  z-index: 100;
+  user-select: none;
+  cursor: pointer;
+
+  transition-duration: 0.3s;
+}
+
+.loc:hover {
+  color: rgba(255,255,255,1);
+  transition-duration: 0.3s;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}

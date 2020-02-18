@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BALDWIN ST @ BEVERLEY ST</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		#link3 {
+			color: rgba(255,255,255,1);
+			transition-duration: 0.3s;
+		}
+	</style>
+	<script>
+    	function toggle1() {
+		var myAudio = document.getElementById('audio1');
+   			if (myAudio.paused) {
+				myAudio.play();
+				document.getElementById("baldwin-mccaul")
+			} else {
+				myAudio.pause();
+			}
+    	}
+    	function toggle2() {
+		var myAudio = document.getElementById('audio2');
+   			if (myAudio.paused) {
+				myAudio.play(); 
+			} else {
+				myAudio.pause();
+			}
+    	}
+    	function toggle3() {
+		var myAudio = document.getElementById('audio3');
+   			if (myAudio.paused) {
+				myAudio.play(); 
+			} else {
+				myAudio.pause();
+			}
+    	}
+	</script>
+</head>
+<body>
+	<div class="navi">
+		<div class="navlink"><a class="navi-link" href="index2.html" id="link1">BALDWIN ST @ MCCAUL</a></div>
+		<div class="navlink"><a class="navi-link" href="index.html" id="link2">ELM ST @ MCCAUL ST</a></div>
+		<div class="navlink" id="link3">BALDWIN ST @ BEVERLEY ST</div>
+	</div>
+
+	<div class="image" id="baldwin-beverley">
+		<audio id="audio3" src="Baldwin-Beverley.wav" preload="auto" loop="true" autoplay></audio>
+	</div>
+</body>
+</html>
